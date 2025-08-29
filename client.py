@@ -1,7 +1,7 @@
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('10.42.0.190', 9999))
+client_socket.connect(('localhost', 9999))
 
 print("🟢 Connected to server on port 9999.")
 
